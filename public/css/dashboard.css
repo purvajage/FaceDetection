@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+.home-section{
+    position: relative;
+    background: #D6EFED;
+    height: 100vh;
+    left: 240px;
+    width: calc(100% - 240px);
+}
+.home-section .home-content .text{
+    color: #11101d;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+}
+.home-section .home-content .user_box{
+    background-color: #6E85B7;
+    width: 350px;
+    height: 300px;
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+}
+.home-section .home-content .dept_box{
+    background-color: #6E85B7;
+    width: 350px;
+    height: 300px;
+    margin-left: 445px;
+    margin-top: -340px;
+    border-radius: 20px;
+    display: flex;
+}
+.home-section .home-content .leave_box{
+    background-color: #6E85B7;
+    width: 350px;
+    height: 300px;
+    margin-left: 850px;
+    margin-top: -300px;
+    border-radius: 20px;
+    display: flex;
+}
+.home-section .home-content .user_box i{
+    font-size: 90px;
+    color: black;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.home-section .home-content .dept_box i{
+    font-size: 90px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.home-section .home-content .dept_box .text{
+    margin-left: -100px;
+}
+.home-section .home-content .leave_box i{
+    font-size: 90px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.home-section .home-content .leave_box .text{
+    margin-left: -100px;
+}
